@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>اختبار القانون</title>
+    <title>اختبار الاقتصاد</title>
     <style>
         * {
             box-sizing: border-box;
@@ -147,6 +147,14 @@
         color: #2c3e50;
         }
         
+        .score-percentage {
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 20px;
+        color: #4a6baf;
+        font-weight: bold;
+        }
+        
         .correct-answer {
         color: #27ae60;
         font-weight: bold;
@@ -205,382 +213,350 @@
 <body>
     <div class="container">
         <header>
-            <h1>اختبار القانون</h1>
-            <p class="intro">اختبار مكون من 15 سؤالاً يغطي الموضوعات الرئيسية في القانون. اختر الإجابة الصحيحة لكل سؤال ثم اضغط على زر التصحيح في النهاية لمعرفة نتيجتك.</p>
+            <h1>اختبار الاقتصاد</h1>
+            <p class="intro">اختبار مكون من 15 سؤالاً يغطي الموضوعات الرئيسية في الاقتصاد. اختر الإجابة الصحيحة لكل سؤال ثم اضغط على زر التصحيح في النهاية لمعرفة نتيجتك.</p>
         </header>
         
         <form id="quiz-form">
-        <div class="section-title">أولاً: أسئلة الاختيار من متعدد (اختر الإجابة الصحيحة)</div>
+        <div class="section-title">أولاً: أسئلة الصواب والخطأ (ضع علامة (√) أو (×))</div>
         
         <div class="question">
-        <div class="question-title">السؤال 1: من أهم أهداف القانون في المجتمع:</div>
-        <div class="options">
-        <div class="option">
+        <div class="question-title">السؤال 1: الاقتصاد علم اجتماعي يهتم بدراسة السلوك البشري في ظل الموارد النادرة.</div>
+        <div class="true-false">
         <label>
-        <input type="radio" name="q1" value="a">
-        أ. تحقيق الاستقرار والعدالة
+        <input type="radio" name="q1" value="true">
+        √ (صواب)
         </label>
-        </div>
-        <div class="option">
         <label>
-        <input type="radio" name="q1" value="b">
-        ب. تحقيق الأمن والسلام
+        <input type="radio" name="q1" value="false">
+        × (خطأ)
         </label>
-        </div>
-        <div class="option">
-        <label>
-        <input type="radio" name="q1" value="c">
-        ج. تنظيم سلوك الأفراد في المجتمع
-        </label>
-        </div>
-        <div class="option">
-        <label>
-        <input type="radio" name="q1" value="d">
-        د. كل ما سبق صحيح
-        </label>
-        </div>
         </div>
         </div>
         
         <div class="question">
-        <div class="question-title">السؤال 2: مجموعة القواعد التي تحدد إيرادات الدولة وكيفية تحصيلها، وأوجه الإنفاق اللازمة لتسيير شؤونها يمثل أحد فروع القانون العام وهو:</div>
-        <div class="options">
-        <div class="option">
+        <div class="question-title">السؤال 2: الهدف من زيادة الدخل القومي هو زيادة السلع الحقيقية وليس زيادة الأسعار.</div>
+        <div class="true-false">
         <label>
-        <input type="radio" name="q2" value="a">
-        أ. القانون الدستوري
+        <input type="radio" name="q2" value="true">
+        √ (صواب)
         </label>
-        </div>
-        <div class="option">
         <label>
-        <input type="radio" name="q2" value="b">
-        ب. القانون الجنائي
+        <input type="radio" name="q2" value="false">
+        × (خطأ)
         </label>
-        </div>
-        <div class="option">
-        <label>
-        <input type="radio" name="q2" value="c">
-        ج. القانون المالي
-        </label>
-        </div>
-        <div class="option">
-        <label>
-        <input type="radio" name="q2" value="d">
-        د. القانون الإداري
-        </label>
-        </div>
         </div>
         </div>
         
         <div class="question">
-        <div class="question-title">السؤال 3: التشريع الذي يحتل أعلى الدرجات من حيث القوة، ويغلب على التشريع العادي والفرعي في حالة التعارض، هو:</div>
-        <div class="options">
-        <div class="option">
+        <div class="question-title">السؤال 3: العلاقة بين سعر السلعة والكمية المطلوبة منها هي علاقة عكسية، بافتراض بقاء العوامل الأخرى ثابتة.</div>
+        <div class="true-false">
         <label>
-        <input type="radio" name="q3" value="a">
-        أ. التشريع العادي
+        <input type="radio" name="q3" value="true">
+        √ (صواب)
         </label>
-        </div>
-        <div class="option">
         <label>
-        <input type="radio" name="q3" value="b">
-        ب. التشريع الفرعي
+        <input type="radio" name="q3" value="false">
+        × (خطأ)
         </label>
-        </div>
-        <div class="option">
-        <label>
-        <input type="radio" name="q3" value="c">
-        ج. التشريع الأساسي (الدستوري)
-        </label>
-        </div>
-        <div class="option">
-        <label>
-        <input type="radio" name="q3" value="d">
-        د. لوائح الضبط
-        </label>
-        </div>
         </div>
         </div>
         
         <div class="question">
-        <div class="question-title">السؤال 4: تعتبر مبادئ الشريعة الإسلامية مصدرًا احتياطيًا عامًا للقانون المصري، إلا في مسائل:</div>
-        <div class="options">
-        <div class="option">
+        <div class="question-title">السؤال 4: إذا ارتفعت أسعار عناصر الإنتاج المستخدمة في عملية إنتاج سلعة ما، فإن ذلك يؤدي إلى تقليل عرض هذه السلعة.</div>
+        <div class="true-false">
         <label>
-        <input type="radio" name="q4" value="a">
-        أ. الأحوال العينية
+        <input type="radio" name="q4" value="true">
+        √ (صواب)
         </label>
-        </div>
-        <div class="option">
         <label>
-        <input type="radio" name="q4" value="b">
-        ب. الأحوال الشخصية (كالزواج والطلاق والميراث)
+        <input type="radio" name="q4" value="false">
+        × (خطأ)
         </label>
-        </div>
-        <div class="option">
-        <label>
-        <input type="radio" name="q4" value="c">
-        ج. المعاملات المالية
-        </label>
-        </div>
-        <div class="option">
-        <label>
-        <input type="radio" name="q4" value="d">
-        د. القانون الدولي العام
-        </label>
-        </div>
         </div>
         </div>
         
         <div class="question">
-        <div class="question-title">السؤال 5: مبدأ.................. يعني أن القانون الوطني يطبق على كل من يقيم على إقليم الدولة، سواء كانوا وطنيين أو أجانب، ولا يتعدى تطبيقه حدود هذا الإقليم:</div>
-        <div class="options">
-        <div class="option">
+        <div class="question-title">السؤال 5: المنفعة (Utility) هي قدرة السلعة أو الخدمة على إشباع الحاجة.</div>
+        <div class="true-false">
         <label>
-        <input type="radio" name="q5" value="a">
-        أ. شخصية القوانين
+        <input type="radio" name="q5" value="true">
+        √ (صواب)
         </label>
-        </div>
-        <div class="option">
         <label>
-        <input type="radio" name="q5" value="b">
-        ب. إقليمية القوانين
+        <input type="radio" name="q5" value="false">
+        × (خطأ)
         </label>
-        </div>
-        <div class="option">
-        <label>
-        <input type="radio" name="q5" value="c">
-        ج. عدم رجعية القوانين
-        </label>
-        </div>
-        <div class="option">
-        <label>
-        <input type="radio" name="q5" value="d">
-        د. تنازع القوانين
-        </label>
-        </div>
         </div>
         </div>
         
         <div class="question">
-        <div class="question-title">السؤال 6: الحق الذي يمنح صاحبه سلطة مباشرة على شيء معين بذاته هو:</div>
-        <div class="options">
-        <div class="option">
+        <div class="question-title">السؤال 6: مرونة الطلب الدخلية السالبة تشير إلى أن السلعة عادية (Normal good).</div>
+        <div class="true-false">
         <label>
-        <input type="radio" name="q6" value="a">
-        أ. الحق الشخصي (الدائنية)
+        <input type="radio" name="q6" value="true">
+        √ (صواب)
         </label>
-        </div>
-        <div class="option">
         <label>
-        <input type="radio" name="q6" value="b">
-        ب. الحق الأدبي
+        <input type="radio" name="q6" value="false">
+        × (خطأ)
         </label>
-        </div>
-        <div class="option">
-        <label>
-        <input type="radio" name="q6" value="c">
-        ج. الحق العيني
-        </label>
-        </div>
-        <div class="option">
-        <label>
-        <input type="radio" name="q6" value="d">
-        د. الحق السياسي
-        </label>
-        </div>
         </div>
         </div>
         
         <div class="question">
-        <div class="question-title">السؤال 7: ينتهي القانون تلقائيًا، دون حاجة إلى نص صريح بالإلغاء، إذا كان القانون قد صدر لتنظيم وضع معين وحدث لهذا الوضع:</div>
-        <div class="options">
-        <div class="option">
+        <div class="question-title">السؤال 7: العرض الكلي هو مجموع السلع والخدمات التي ينتجها المجتمع خلال فترة زمنية معينة.</div>
+        <div class="true-false">
         <label>
-        <input type="radio" name="q7" value="a">
-        أ. صدور تشريع جديد يتعارض مع القديم
+        <input type="radio" name="q7" value="true">
+        √ (صواب)
         </label>
-        </div>
-        <div class="option">
         <label>
-        <input type="radio" name="q7" value="b">
-        ب. انقضاء مدته أو الغرض منه
+        <input type="radio" name="q7" value="false">
+        × (خطأ)
         </label>
-        </div>
-        <div class="option">
-        <label>
-        <input type="radio" name="q7" value="c">
-        ج. الحكم ببطلانه
-        </label>
-        </div>
-        <div class="option">
-        <label>
-        <input type="radio" name="q7" value="d">
-        د. إلغاء التشريع الفرعي التابع له
-        </label>
-        </div>
         </div>
         </div>
         
+        <div class="section-title">ثانياً: أسئلة الاختيار من متعدد (اختر الإجابة الصحيحة)</div>
+        
         <div class="question">
-        <div class="question-title">السؤال 8: القاعدة القانونية التي تترك للأفراد قدرًا من الحرية للاتفاق على ما يخالف حكمها تُسمى:</div>
+        <div class="question-title">السؤال 8: يتمثل السؤال الاقتصادي "ماذا ننتج؟" في:</div>
         <div class="options">
         <div class="option">
         <label>
         <input type="radio" name="q8" value="a">
-        أ. القاعدة الآمرة
+        أ. تحديد أسلوب الإنتاج المناسب.
         </label>
         </div>
         <div class="option">
         <label>
         <input type="radio" name="q8" value="b">
-        ب. قاعدة النظام العام
+        ب. تحديد المستفيدين من الإنتاج.
         </label>
         </div>
         <div class="option">
         <label>
         <input type="radio" name="q8" value="c">
-        ج. القاعدة المكملة (أو المفسرة)
+        ج. تحديد السلع والخدمات وكمياتها.
         </label>
         </div>
         <div class="option">
         <label>
         <input type="radio" name="q8" value="d">
-        د. قاعدة الضبط
+        د. توزيع الدخل القومي.
         </label>
         </div>
         </div>
         </div>
         
         <div class="question">
-        <div class="question-title">السؤال 9: الذمة المالية للشخص هي:</div>
+        <div class="question-title">السؤال 9: الندرة الاقتصادية تعني:</div>
         <div class="options">
         <div class="option">
         <label>
         <input type="radio" name="q9" value="a">
-        أ. مجموعة الحقوق فقط التي تثبت للشخص
+        أ. قلة الحاجات البشرية.
         </label>
         </div>
         <div class="option">
         <label>
         <input type="radio" name="q9" value="b">
-        ب. مجموع ما يكون للشخص من حقوق وما يتحمل به من التزامات مالية
+        ب. محدودية الموارد مقارنة بالاحتياجات.
         </label>
         </div>
         <div class="option">
         <label>
         <input type="radio" name="q9" value="c">
-        ج. الحقوق التي تثبت للشخص الطبيعي فقط
+        ج. انخفاض مستوى المعيشة.
         </label>
         </div>
         <div class="option">
         <label>
         <input type="radio" name="q9" value="d">
-        د. مجموعة الحقوق التي يمكن التصرف فيها فقط
+        د. الفقر المدقع.
         </label>
         </div>
         </div>
         </div>
         
         <div class="question">
-        <div class="question-title">السؤال 10: إذا صدر حكم نهائي بعقوبة على شخص ارتكب جريمة، ثم صدر قانون جديد قبل تنفيذ العقوبة يجعله الفعل الذي ارتكبه مباحًا، فإن هذا القانون الجديد:</div>
+        <div class="question-title">السؤال 10: إذا ارتفع السعر المتوقع لسلعة في المستقبل، فإن الطلب الحالي عليها:</div>
         <div class="options">
         <div class="option">
         <label>
         <input type="radio" name="q10" value="a">
-        أ. لا يطبق بأثر رجعي
+        أ. ينخفض.
         </label>
         </div>
         <div class="option">
         <label>
         <input type="radio" name="q10" value="b">
-        ب. يطبق بأثر فوري فقط
+        ب. لا يتغير.
         </label>
         </div>
         <div class="option">
         <label>
         <input type="radio" name="q10" value="c">
-        ج. يطبق بأثر رجعي لمصلحة المتهم (يحكم بالبراءة)
+        ج. يزيد.
         </label>
         </div>
         <div class="option">
         <label>
         <input type="radio" name="q10" value="d">
-        د. لا يؤثر على الحكم النهائي مطلقًا
+        د. يعتمد على العرض.
         </label>
         </div>
-        </div>
-        </div>
-        
-        <div class="section-title">ثانياً: أسئلة الصواب والخطأ (ضع علامة (√) أو (×))</div>
-        
-        <div class="question">
-        <div class="question-title">السؤال 11: القاعدة القانونية تخاطب الشخص بذاته واسمه وتتجه إلى الوقائع الفردية المحددة (أي أنها ليست عامة ومجردة).</div>
-        <div class="true-false">
-        <label>
-        <input type="radio" name="q11" value="true">
-        √ (صواب)
-        </label>
-        <label>
-        <input type="radio" name="q11" value="false">
-        × (خطأ)
-        </label>
         </div>
         </div>
         
         <div class="question">
-        <div class="question-title">السؤال 12: إذا كانت الدولة طرفًا في العلاقة القانونية باعتبارها صاحبة سلطة وسيادة، فنحن بصدد قواعد القانون الخاص.</div>
-        <div class="true-false">
+        <div class="question-title">السؤال 11: فائض العرض (Surplus) يحدث عندما:</div>
+        <div class="options">
+        <div class="option">
         <label>
-        <input type="radio" name="q12" value="true">
-        √ (صواب)
-        </label>
-        <label>
-        <input type="radio" name="q12" value="false">
-        × (خطأ)
+        <input type="radio" name="q11" value="a">
+        أ. الكمية المطلوبة > الكمية المعروضة (Qd > Qs).
         </label>
         </div>
-        </div>
-        
-        <div class="question">
-        <div class="question-title">السؤال 13: لا يجوز للقاضي أن يطلب من الفرد عدم الخضوع لأحكام القانون بدعوى جهله به، حتى لو كانت ظروفه الخاصة تمنعه من العلم بالقانون.</div>
-        <div class="true-false">
+        <div class="option">
         <label>
-        <input type="radio" name="q13" value="true">
-        √ (صواب)
-        </label>
-        <label>
-        <input type="radio" name="q13" value="false">
-        × (خطأ)
+        <input type="radio" name="q11" value="b">
+        ب. الكمية المطلوبة < الكمية المعروضة (Qd < Qs).
         </label>
         </div>
+        <div class="option">
+        <label>
+        <input type="radio" name="q11" value="c">
+        ج. الكمية المطلوبة = الكمية المعروضة (Qd = Qs).
+        </label>
         </div>
-        
-        <div class="question">
-        <div class="question-title">السؤال 14: تتميز الحقوق السياسية بأنها حقوق مالية يجوز التنازل عنها أو انتقالها بالميراث.</div>
-        <div class="true-false">
+        <div class="option">
         <label>
-        <input type="radio" name="q14" value="true">
-        √ (صواب)
+        <input type="radio" name="q11" value="d">
+        د. لا شيء مما سبق.
         </label>
-        <label>
-        <input type="radio" name="q14" value="false">
-        × (خطأ)
-        </label>
+        </div>
         </div>
         </div>
         
         <div class="question">
-        <div class="question-title">السؤال 15: يعتبر العرف مصدرًا احتياطيًا للقانون، ولذلك لا يجوز لعرف أن ينشئ قاعدة تخالف حكم قاعدة تشريعية آمرة.</div>
-        <div class="true-false">
+        <div class="question-title">السؤال 12: الخبز يُعد من أمثلة السلع التي تتسم بأن طلبها:</div>
+        <div class="options">
+        <div class="option">
         <label>
-        <input type="radio" name="q15" value="true">
-        √ (صواب)
+        <input type="radio" name="q12" value="a">
+        أ. مرن.
         </label>
+        </div>
+        <div class="option">
         <label>
-        <input type="radio" name="q15" value="false">
-        × (خطأ)
+        <input type="radio" name="q12" value="b">
+        ب. غير مرن (منخفض المرونة).
         </label>
+        </div>
+        <div class="option">
+        <label>
+        <input type="radio" name="q12" value="c">
+        ج. متكافئ المرونة.
+        </label>
+        </div>
+        <div class="option">
+        <label>
+        <input type="radio" name="q12" value="d">
+        د. لا يمكن تحديد مرونته.
+        </label>
+        </div>
+        </div>
+        </div>
+        
+        <div class="question">
+        <div class="question-title">السؤال 13: المرونة التقاطعية السالبة تعني أن السلعتين:</div>
+        <div class="options">
+        <div class="option">
+        <label>
+        <input type="radio" name="q13" value="a">
+        أ. بديلتان.
+        </label>
+        </div>
+        <div class="option">
+        <label>
+        <input type="radio" name="q13" value="b">
+        ب. مكملتان.
+        </label>
+        </div>
+        <div class="option">
+        <label>
+        <input type="radio" name="q13" value="c">
+        ج. مستقلتان.
+        </label>
+        </div>
+        <div class="option">
+        <label>
+        <input type="radio" name="q13" value="d">
+        د. غير مهمتان.
+        </label>
+        </div>
+        </div>
+        </div>
+        
+        <div class="question">
+        <div class="question-title">السؤال 14: يهتم الاقتصاد الكلي (Macroeconomics) بدراسة:</div>
+        <div class="options">
+        <div class="option">
+        <label>
+        <input type="radio" name="q14" value="a">
+        أ. سلوك المستهلك الفردي.
+        </label>
+        </div>
+        <div class="option">
+        <label>
+        <input type="radio" name="q14" value="b">
+        ب. قرارات منشأة معينة.
+        </label>
+        </div>
+        <div class="option">
+        <label>
+        <input type="radio" name="q14" value="c">
+        ج. الاقتصاد القومي ككل (مثل الدخل القومي والبطالة).
+        </label>
+        </div>
+        <div class="option">
+        <label>
+        <input type="radio" name="q14" value="d">
+        د. تكلفة إنتاج سلعة واحدة.
+        </label>
+        </div>
+        </div>
+        </div>
+        
+        <div class="question">
+        <div class="question-title">السؤال 15: في حالة اختلاف أسعار السلع، يتحقق توازن المستهلك باستخدام المنفعة الحدية عندما تتساوى:</div>
+        <div class="options">
+        <div class="option">
+        <label>
+        <input type="radio" name="q15" value="a">
+        أ. المنفعة الكلية لكل سلعة.
+        </label>
+        </div>
+        <div class="option">
+        <label>
+        <input type="radio" name="q15" value="b">
+        ب. المنفعة الحدية لكل سلعة (MU).
+        </label>
+        </div>
+        <div class="option">
+        <label>
+        <input type="radio" name="q15" value="c">
+        ج. المنفعة الحدية لكل سلعة مقسومة على ثمنها.
+        </label>
+        </div>
+        <div class="option">
+        <label>
+        <input type="radio" name="q15" value="d">
+        د. عدد الوحدات المستهلكة من كل سلعة.
+        </label>
+        </div>
         </div>
         </div>
         
@@ -591,6 +567,7 @@
         
         <div class="results" id="results">
         <div class="score" id="score"></div>
+        <div class="score-percentage" id="score-percentage"></div>
         
         <div id="results-details">
         <!-- سيتم ملء النتائج هنا بالجافا سكريبت -->
@@ -602,59 +579,59 @@
         document.getElementById('submit-btn').addEventListener('click', function() {
         // الإجابات الصحيحة
         const correctAnswers = {
-        q1: 'd',
-        q2: 'c',
-        q3: 'c',
-        q4: 'b',
-        q5: 'b',
-        q6: 'c',
-        q7: 'b',
+        q1: 'true',
+        q2: 'true',
+        q3: 'true',
+        q4: 'true',
+        q5: 'true',
+        q6: 'false',
+        q7: 'true',
         q8: 'c',
         q9: 'b',
         q10: 'c',
-        q11: 'false',
-        q12: 'false',
-        q13: 'true',
-        q14: 'false',
-        q15: 'true'
+        q11: 'b',
+        q12: 'b',
+        q13: 'b',
+        q14: 'c',
+        q15: 'c'
         };
         
         // نصوص الإجابات الصحيحة
         const answerTexts = {
-        q1: 'د. كل ما سبق صحيح',
-        q2: 'ج. القانون المالي',
-        q3: 'ج. التشريع الأساسي (الدستوري)',
-        q4: 'ب. الأحوال الشخصية (كالزواج والطلاق والميراث)',
-        q5: 'ب. إقليمية القوانين',
-        q6: 'ج. الحق العيني',
-        q7: 'ب. انقضاء مدته أو الغرض منه',
-        q8: 'ج. القاعدة المكملة (أو المفسرة)',
-        q9: 'ب. مجموع ما يكون للشخص من حقوق وما يتحمل به من التزامات مالية',
-        q10: 'ج. يطبق بأثر رجعي لمصلحة المتهم (يحكم بالبراءة)',
-        q11: '× (خطأ)',
-        q12: '× (خطأ)',
-        q13: '√ (صواب)',
-        q14: '× (خطأ)',
-        q15: '√ (صواب)'
+        q1: '√ (صواب)',
+        q2: '√ (صواب)',
+        q3: '√ (صواب)',
+        q4: '√ (صواب)',
+        q5: '√ (صواب)',
+        q6: '× (خطأ)',
+        q7: '√ (صواب)',
+        q8: 'ج. تحديد السلع والخدمات وكمياتها',
+        q9: 'ب. محدودية الموارد مقارنة بالاحتياجات',
+        q10: 'ج. يزيد',
+        q11: 'ب. الكمية المطلوبة < الكمية المعروضة (Qd < Qs)',
+        q12: 'ب. غير مرن (منخفض المرونة)',
+        q13: 'ب. مكملتان',
+        q14: 'ج. الاقتصاد القومي ككل (مثل الدخل القومي والبطالة)',
+        q15: 'ج. المنفعة الحدية لكل سلعة مقسومة على ثمنها'
         };
         
         // نصوص الأسئلة
         const questionTexts = {
-        q1: 'من أهم أهداف القانون في المجتمع:',
-        q2: 'مجموعة القواعد التي تحدد إيرادات الدولة وكيفية تحصيلها، وأوجه الإنفاق اللازمة لتسيير شؤونها يمثل أحد فروع القانون العام وهو:',
-        q3: 'التشريع الذي يحتل أعلى الدرجات من حيث القوة، ويغلب على التشريع العادي والفرعي في حالة التعارض، هو:',
-        q4: 'تعتبر مبادئ الشريعة الإسلامية مصدرًا احتياطيًا عامًا للقانون المصري، إلا في مسائل:',
-        q5: 'مبدأ.................. يعني أن القانون الوطني يطبق على كل من يقيم على إقليم الدولة، سواء كانوا وطنيين أو أجانب، ولا يتعدى تطبيقه حدود هذا الإقليم:',
-        q6: 'الحق الذي يمنح صاحبه سلطة مباشرة على شيء معين بذاته هو:',
-        q7: 'ينتهي القانون تلقائيًا، دون حاجة إلى نص صريح بالإلغاء، إذا كان القانون قد صدر لتنظيم وضع معين وحدث لهذا الوضع:',
-        q8: 'القاعدة القانونية التي تترك للأفراد قدرًا من الحرية للاتفاق على ما يخالف حكمها تُسمى:',
-        q9: 'الذمة المالية للشخص هي:',
-        q10: 'إذا صدر حكم نهائي بعقوبة على شخص ارتكب جريمة، ثم صدر قانون جديد قبل تنفيذ العقوبة يجعله الفعل الذي ارتكبه مباحًا، فإن هذا القانون الجديد:',
-        q11: 'القاعدة القانونية تخاطب الشخص بذاته واسمه وتتجه إلى الوقائع الفردية المحددة (أي أنها ليست عامة ومجردة).',
-        q12: 'إذا كانت الدولة طرفًا في العلاقة القانونية باعتبارها صاحبة سلطة وسيادة، فنحن بصدد قواعد القانون الخاص.',
-        q13: 'لا يجوز للقاضي أن يطلب من الفرد عدم الخضوع لأحكام القانون بدعوى جهله به، حتى لو كانت ظروفه الخاصة تمنعه من العلم بالقانون.',
-        q14: 'تتميز الحقوق السياسية بأنها حقوق مالية يجوز التنازل عنها أو انتقالها بالميراث.',
-        q15: 'يعتبر العرف مصدرًا احتياطيًا للقانون، ولذلك لا يجوز لعرف أن ينشئ قاعدة تخالف حكم قاعدة تشريعية آمرة.'
+        q1: 'الاقتصاد علم اجتماعي يهتم بدراسة السلوك البشري في ظل الموارد النادرة.',
+        q2: 'الهدف من زيادة الدخل القومي هو زيادة السلع الحقيقية وليس زيادة الأسعار.',
+        q3: 'العلاقة بين سعر السلعة والكمية المطلوبة منها هي علاقة عكسية، بافتراض بقاء العوامل الأخرى ثابتة.',
+        q4: 'إذا ارتفعت أسعار عناصر الإنتاج المستخدمة في عملية إنتاج سلعة ما، فإن ذلك يؤدي إلى تقليل عرض هذه السلعة.',
+        q5: 'المنفعة (Utility) هي قدرة السلعة أو الخدمة على إشباع الحاجة.',
+        q6: 'مرونة الطلب الدخلية السالبة تشير إلى أن السلعة عادية (Normal good).',
+        q7: 'العرض الكلي هو مجموع السلع والخدمات التي ينتجها المجتمع خلال فترة زمنية معينة.',
+        q8: 'يتمثل السؤال الاقتصادي "ماذا ننتج؟" في:',
+        q9: 'الندرة الاقتصادية تعني:',
+        q10: 'إذا ارتفع السعر المتوقع لسلعة في المستقبل، فإن الطلب الحالي عليها:',
+        q11: 'فائض العرض (Surplus) يحدث عندما:',
+        q12: 'الخبز يُعد من أمثلة السلع التي تتسم بأن طلبها:',
+        q13: 'المرونة التقاطعية السالبة تعني أن السلعتين:',
+        q14: 'يهتم الاقتصاد الكلي (Macroeconomics) بدراسة:',
+        q15: 'في حالة اختلاف أسعار السلع، يتحقق توازن المستهلك باستخدام المنفعة الحدية عندما تتساوى:'
         };
         
         let score = 0;
@@ -675,7 +652,7 @@
         let userAnswerText = '';
         if (userAnswer === 'لم يتم الإجابة') {
         userAnswerText = 'لم يتم الإجابة';
-        } else if (i <= 10) {
+        } else if (i >= 8) {
         // أسئلة الاختيار من متعدد
         const optionLetters = {a: 'أ', b: 'ب', c: 'ج', d: 'د'};
         userAnswerText = `${optionLetters[userAnswer]}. ${getOptionText(questionName, userAnswer)}`;
@@ -693,8 +670,12 @@
         `;
         }
         
+        // حساب النسبة المئوية
+        const percentage = Math.round((score / 15) * 100);
+        
         // عرض النتيجة
         document.getElementById('score').textContent = `نتيجتك: ${score} من أصل 15`;
+        document.getElementById('score-percentage').textContent = `${score} - 15 (${percentage}%)`;
         document.getElementById('results-details').innerHTML = resultsHTML;
         document.getElementById('results').style.display = 'block';
         
